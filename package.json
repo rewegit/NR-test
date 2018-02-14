@@ -2,7 +2,10 @@
     "name": "myNewTest1",
     "description": "NR Test Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-moment": "2.0.7",
+        "node-red-contrib-os": "0.1.7"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flow.json",
